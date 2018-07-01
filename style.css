@@ -7,10 +7,6 @@ body {
     background-color: black;
     padding: 50px 0;
 }
-ul {
-    list-style: none;
-}
-
 a {
     text-decoration: none;
 }
@@ -31,10 +27,19 @@ a {
     display:inline-block;
     padding: 23px 0 0 330px;
 }
+.elipse a {
+   display: inline-block;
+}
 .menu {
     font-size: 21px;
     float: right;
-    padding: 56px 180px 0 0;
+    margin: 60px 180px 55px 0;
+}
+.home_menu {
+    padding: 5px;
+}
+.menu ul {
+    list-style: none;
 }
 .menu li {
     display: inline-block;
@@ -48,7 +53,7 @@ a {
 .box a{
     background-color: #eb6c10;
     color: #ffffff;
-    border-radius: 4px;
+    border-radius: 6px;
 }
 .head_image {
     background-color: #f2f0f0;
@@ -58,15 +63,15 @@ a {
     position:relative ;
 }
 .dot {
-    margin: 60px 0 0 325px;
+    margin: 35px 0 0 325px;
+}
+.left_content {
+    display: inline-block;
 }
 .h1 {
     font-size: 25px;
     color: #5d0400;
     margin: 40px 0 0 330px;
-}
-.welcome {
-    width: 850px;
 }
 .povar {
     margin:30px 0 0 330px ;
@@ -78,19 +83,145 @@ a {
     bottom: 70px;
 
 }
-h3 {
+.more {
     display: inline-block;
     font-size: 12px;
-    border-radius: 4px;
+    border-radius: 6px;
     background-color: #eb6c10;
-    width: 40px;
     position: relative;
     right: 285px;
     bottom: 30px;
+    padding: 4px;
+    color: white;
 }
-.h2 {
-    font-size: 5px;
-    color: #5d0400;
+.pink_text {
+    color: #e6a7a5;
+}
+.right_content {
     display: inline-block;
-    margin-left: 960px;
 }
+.features {
+    font-size: 25px;
+    color: #5d0400;
+    margin-bottom: 22px;
+}
+.right_content ul li {
+    padding-top: 14px;
+    font-size: 14px;
+}
+.dot2 {
+    margin: 30px 0 0 325px;
+}
+.best_choice_h {
+    font-size: 25px;
+    color: #5d0400;
+    margin: 30px 0 0 330px;
+}
+.offer_1 {
+    display: inline-block;
+}
+.dish_1 {
+    height: 200px;
+    margin: 30px 0 0 330px;
+
+}
+.name_dish_1 {
+    font-size: 12px;
+    padding-top: 20px;
+}
+.bottom_text_1{
+    font-size: 12px;
+    color: #826660;
+}
+.price_1 {
+    font-size: 20px;
+    background-color:#eb6c10 ;
+    border-radius: 6px;
+    color: white;
+    padding: 6px;
+    width:30px ;
+    margin-top: 15px;
+}
+.offer_2 {
+    display: inline-block;
+    margin-left: 22px;
+}
+.offer_3 {
+    display: inline-block;
+    margin-left: 22px;
+}
+.offer_4 {
+    display: inline-block;
+    margin-left: 22px;
+}
+.dot3 {
+    margin: 40px 0 0 325px;
+}
+.follow_us {
+    display: inline-block;
+}
+.follow_us_h {
+    font-size: 25px;
+    color: #5d0400;
+    margin: 40px 0 0 330px;
+}
+.badges {
+    display: inline-block;
+    margin: 25px 0 0 330px;
+}
+.footer_menu {
+    font-size: 12px;
+    margin: 25px 0 0 330px;
+}
+.footer_menu ul {
+    list-style: none;
+}
+.footer_menu ul li {
+    display: inline-block;
+    padding-right: 20px;
+
+}
+.footer_menu ul li a {
+    color:#504f4f;
+}
+.email_updates {
+    display: inline-block;
+}
+.email_updates_h {
+     font-size: 25px;
+     color: #5d0400;
+     margin: 30px 0 0 88px;
+}
+.footer_text {
+    font-size: 12px;
+    margin: 30px 0 0 88px;
+    padding-bottom: 11px;
+}
+.email {
+    display: inline-block;
+    padding: 5px 55px 5px 5px;
+    background-color: white;
+    color: #c3c3c3;
+    margin-left: 88px;
+    border: 1px solid #c3c3c3;
+}
+.subscribe {
+    display: inline-block;
+    font-size: 13px;
+    background-color: #eb6c10;
+    padding: 6px;
+    color: white;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.group {
+    font-size: 16px;
+    padding: 30px 30px 30px 500px;
+    background-color: #eb6c10;
+    margin-top: 20px;
+    color: white;
+}
+
+
+
+
