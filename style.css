@@ -12,8 +12,7 @@ a {
 }
 .wrapper {
     width: 1600px;
-    height:1800px;
-    margin: auto;
+    margin: auto ;
     background: #f2f0f0;
     box-sizing: border-box;
 }
@@ -23,17 +22,25 @@ a {
     background-color: #eb6c10;
     display:inline-block;
 }
+.wrapper_content {
+    width: 930px;
+    margin: auto ;
+}
 .elipse {
     display:inline-block;
-    padding: 23px 0 0 330px;
+    padding-top: 20px;
 }
 .elipse a {
    display: inline-block;
 }
+header {
+    overflow: hidden;
+}
 .menu {
-    font-size: 21px;
+    display: inline-block;
+    font-size: 18px;
     float: right;
-    margin: 60px 180px 55px 0;
+    padding: 50px 0 50px 0;
 }
 .home_menu {
     padding: 5px;
@@ -43,8 +50,15 @@ a {
 }
 .menu li {
     display: inline-block;
-    margin-right: 24px;
-
+    padding-right: 15px;
+}
+.menu li a {
+    padding: 5px;
+}
+.menu li a:hover {
+    color: white;
+    background-color: #eb6c10;
+    border-radius: 6px;
 }
 .menu a {
     color: #85423f;
@@ -62,19 +76,23 @@ a {
 .back {
     position:relative ;
 }
+.big_image {
+    margin-bottom: 30px;
+}
 .dot {
-    margin: 35px 0 0 325px;
+    width: 945px;
+    margin: 0 auto;
 }
 .left_content {
     display: inline-block;
 }
-.h1 {
+.title {
     font-size: 25px;
     color: #5d0400;
-    margin: 40px 0 0 330px;
+    margin: 40px 0 0 0px;
 }
 .povar {
-    margin:30px 0 0 330px ;
+    padding-top: 30px;
 }
 .povar p {
     display: inline-block;
@@ -100,7 +118,7 @@ a {
 .right_content {
     display: inline-block;
 }
-.features {
+.title_1 {
     font-size: 25px;
     color: #5d0400;
     margin-bottom: 22px;
@@ -109,20 +127,26 @@ a {
     padding-top: 14px;
     font-size: 14px;
 }
+.welcome{
+    margin-bottom: 30px;
+}
+
 .dot2 {
-    margin: 30px 0 0 325px;
+    width: 945px;
+    margin: 0 auto;
 }
 .best_choice_h {
     font-size: 25px;
     color: #5d0400;
-    margin: 30px 0 0 330px;
+    margin-top: 25px;
 }
-.offer_1 {
+.offer_1:nth-child(1) {
     display: inline-block;
+    margin-right: 18px;
 }
 .dish_1 {
     height: 200px;
-    margin: 30px 0 0 330px;
+    margin-top: 30px;
 
 }
 .name_dish_1 {
@@ -142,20 +166,27 @@ a {
     width:30px ;
     margin-top: 15px;
 }
-.offer_2 {
+.offer_1:nth-child(2) {
     display: inline-block;
-    margin-left: 22px;
+    margin-left: 18px;
 }
-.offer_3 {
+.offer_1:nth-child(3) {
     display: inline-block;
-    margin-left: 22px;
+    margin-right: 18px;
 }
-.offer_4 {
+.offer_1:nth-child(4) {
     display: inline-block;
-    margin-left: 22px;
+    margin-right: 18px;
+}
+.best_choice {
+    margin-bottom: 40px;
+}
+.best_choice a {
+    color: #1d1916;
 }
 .dot3 {
-    margin: 40px 0 0 325px;
+    width: 945px;
+    margin: 0 auto;
 }
 .follow_us {
     display: inline-block;
@@ -163,15 +194,12 @@ a {
 .follow_us_h {
     font-size: 25px;
     color: #5d0400;
-    margin: 40px 0 0 330px;
+    margin-top: 40px;
 }
-.badges {
-    display: inline-block;
-    margin: 25px 0 0 330px;
-}
+
 .footer_menu {
     font-size: 12px;
-    margin: 25px 0 0 330px;
+    margin-top: 25px ;
 }
 .footer_menu ul {
     list-style: none;
@@ -197,29 +225,40 @@ a {
     margin: 30px 0 0 88px;
     padding-bottom: 11px;
 }
-.email {
-    display: inline-block;
-    padding: 5px 55px 5px 5px;
-    background-color: white;
-    color: #c3c3c3;
-    margin-left: 88px;
-    border: 1px solid #c3c3c3;
-}
-.subscribe {
-    display: inline-block;
-    font-size: 13px;
-    background-color: #eb6c10;
-    padding: 6px;
-    color: white;
-    border-radius: 5px;
-    margin-left: 10px;
-}
 .group {
     font-size: 16px;
-    padding: 30px 30px 30px 500px;
-    background-color: #eb6c10;
+    padding: 30px 0 30px 0;
     margin-top: 20px;
     color: white;
+}
+.folow ul li {
+    display: inline-block;
+    padding-right: 5px;
+}
+.folow {
+    margin-top:30px;
+
+}
+input {
+    padding:  4px;
+}
+form {
+    padding-left: 88px;
+}
+button {
+    padding: 5px;
+    background-color: #eb6c10;
+    border-radius: 6px;
+    color: white;
+    border:none;
+}
+.footer_end {
+    width: 600px;
+    margin: auto;
+}
+.wrapper_footer {
+    width: 1600px;
+    background-color: #eb6c10;
 }
 
 
